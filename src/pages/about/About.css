@@ -1,0 +1,6 @@
+.about__img {
+  min-width: 100%;
+  aspect-ratio: 40/9;
+  object-fit: cover;
+  object-position: 0% 50%;
+}
