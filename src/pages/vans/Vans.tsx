@@ -1,7 +1,11 @@
 interface VansProps {}
 
 const Vans = ({}: VansProps) => {
-  return <h1>Vans</h1>;
+  return (
+    <div className="vans page">
+      <h1>Vans</h1>
+    </div>
+  );
 };
 
 export default Vans;

@@ -14,7 +14,7 @@ const About = ({}: AboutProps) => {
         <h1 className="about__header">
           Don’t squeeze in a sedan when you could relax in a van.
         </h1>
-        <p className="home__sub">
+        <p className="about__sub">
           Our mission is to enliven your road trip with the perfect travel van
           rental. Our vans are recertified before each trip to ensure your
           travel plans can go off without a hitch. (Hitch costs extra 😉) Our
@@ -22,10 +22,9 @@ const About = ({}: AboutProps) => {
           touring the world on 4 wheels.
         </p>
         <div className="explore">
-          <h1 className="explore__header">
-            Your destination is waiting. Your van is ready.
-          </h1>
-          <button className="home__btn">Explore our vans</button>
+          <h1 className="explore__header">Your destination is waiting.</h1>
+          <h1 className="explore__header"> Your van is ready.</h1>
+          <button className="explore__btn">Explore our vans</button>
         </div>
       </div>
     </div>

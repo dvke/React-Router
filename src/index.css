@@ -13,8 +13,11 @@ a:visited {
 
 body,
 html {
+  display: flex;
+  flex-direction: column;
+  position: relative;
   margin: 0;
-  height: 100%;
+  min-height: 100vh;
   background: #fff7ed;
 }
 
@@ -24,12 +27,17 @@ h1 {
 
 /* --------------GENERAL STYLING-------------- */
 .page {
-  margin: 0;
+  margin: 100px auto;
 }
 
 /* ----------------------------------------------- */
 
 nav {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  background: #fff7ed;
   width: 100%;
   display: inline-flex;
   align-items: center;
@@ -56,6 +64,17 @@ nav {
 
 .current-path {
   text-decoration: underline;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  font-size: 1.3rem;
+  text-align: center;
+  background: #252525;
+  color: #aaaaaa;
+  padding: 1rem 0;
 }
 /* ---------------RESPONSIVE STYLING---------------- */
 
